@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #cbcbcb;
+  font-family: cursive;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.left,
+.right {
+  flex: 1;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  outline: none;
+  padding: 5px;
+  min-height: 90%;
+}
+
+.right {
+  background-color: aliceblue;
+  width: 10vw;
+  padding: 0 10px;
+}
+
+.bottom {
+  /* border: 2px solid #000; */
+  margin-top: 20px;
+  padding: 10px;
+}
+
+button {
+  width: 200px;
+  border: 1px solid rebeccapurple;
+  background: transparent;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+button:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.head {
+  text-align: center;
+}

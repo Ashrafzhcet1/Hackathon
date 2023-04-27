@@ -7,3 +7,5 @@ index.html : created website and shared placeholders to paste text to summarize 
 style.css : used css to style the webpage.
 
 app.js : called the api, which helps to integrate the backend and frontend
+
+YOUTUBE: https://youtu.be/Sh34ZVjoT28
